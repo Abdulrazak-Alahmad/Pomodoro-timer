@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pomodoro_Clock</title>
+    <link rel="stylesheet" href="./PomodoroClock.css">
+</head>
+<body>
+    <header>
+        <h1>Pomodoro Clock</h1>
+    </header>
+    <main>
+        <div class="first-part">
+            <div class="left-part">
+                <div>
+                    <h1 class="style">Break</h1>
+                </div>
+                <div class="timer">
+                    <div class="marks">
+                        <button id="break-plus">+</button>
+                    </div>
+                    <div class="time">
+                        <p id="b_minutes">05</p>
+                        <p class="semicolon">:</p>
+                        <p id="b_seconds">00</p>
+                    </div>
+                    <div class="marks">
+                        <button id="break-minus">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-part">
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+                <button id="stop">Stop</button>
+            </div>
+            <div class="right-part">
+                <div id="divWork" class="style">
+                    <h1 id="work">Work</h1>
+                </div>
+                <div class="timer">
+                    <div class="marks">
+                        <button id="work-plus">+</button>
+                    </div>
+                    <div class="time">
+                        <p id="w_minutes">25</p>
+                        <p class="semicolon">:</p>
+                        <p id="w_seconds">00</p>
+                    </div>
+                    <div class="marks">
+                        <button id="work-minus">-</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="img">
+            <img id="img" class="style" src="./pomodoro-image.png" alt="">
+        </div>
+    </main>
+    <footer class="style">
+        <p>Enjoy your time</p>
+    </footer>
+    <script src="./PomodoroClock.js"></script>
+</body>
+</html>
